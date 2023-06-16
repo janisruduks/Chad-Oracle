@@ -1,8 +1,8 @@
-package io.codelex.custom.binaryguessgame;
+package io.codelex;
 
 import java.util.Scanner;
 
-public class BinaryGuessGame {
+public class NumeroOracle {
 
     private static final double MAX_NUMBER = 10000.0;
     private static final int NUMBER_OF_GUESSES = log2((int) MAX_NUMBER);
